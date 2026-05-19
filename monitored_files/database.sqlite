@@ -1,0 +1,2 @@
+-- Mock database stub monitored by HostGuard-FIM
+-- Run: hostguard baseline && hostguard check

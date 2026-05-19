@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "hostguard-fim"
+version = "2.0.0"
+description = "Industrial-Grade Host-Based File Integrity Monitor (HIDS/FIM)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Deepesh Kumar Mahawar", email = "deepeshmahawar2006@gmail.com" }]
+keywords = ["cybersecurity", "hids", "fim", "file-integrity", "soc", "baseline", "mitre-attack"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Security", "License :: OSI Approved :: MIT License"]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+hostguard = "hostguard.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/deepmaha2006/HostGuard-FIM"

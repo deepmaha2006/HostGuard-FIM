@@ -1,0 +1,9 @@
+{
+  "monitored_paths": ["./monitored_files"],
+  "baseline_database": "baseline.json",
+  "exclude_dirs": [".git", "__pycache__", ".venv", "node_modules", "reports"],
+  "exclude_patterns": ["*.pyc", "*.log", "*.tmp", "*.bak"],
+  "exclude_files": ["baseline.json", "hostguard.log", "config.json"],
+  "max_file_size_bytes": 104857600,
+  "output": {"dir": "reports"}
+}
